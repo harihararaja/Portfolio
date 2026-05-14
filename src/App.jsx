@@ -109,7 +109,7 @@ export default function App() {
       <main>
         <section id="home" className="hero">
           <div className="hero-content">
-            <p className="eyebrow">puthon & Full Stack Developer</p>
+            <p className="eyebrow">python & Full Stack Developer</p>
             <h1 className="hero-title">Hari Hara Rajan</h1>
             <p className="hero-description">
               Focused on React, Python, Node.js, SQL, and practical interfaces that make

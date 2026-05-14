@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" /> <!-- Indigo -->
+      <stop offset="100%" stop-color="#9333EA" /> <!-- Purple -->
+    </linearGradient>
+    
+    <!-- Drop Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded App Icon Background -->
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#bg-gradient)" filter="url(#shadow)" />
+  
+  <!-- Stylized Monogram 'H' -->
+  <path d="M 80 70 
+           C 80 64.477 84.477 60 90 60 
+           L 98 60 
+           C 103.523 60 108 64.477 108 70 
+           L 108 114 
+           L 148 114 
+           L 148 70 
+           C 148 64.477 152.477 60 158 60 
+           L 166 60 
+           C 171.523 60 176 64.477 176 70 
+           L 176 186 
+           C 176 191.523 171.523 196 166 196 
+           L 158 196 
+           C 152.477 196 148 191.523 148 186 
+           L 148 138 
+           L 108 138 
+           L 108 186 
+           C 108 191.523 103.523 196 98 196 
+           L 90 196 
+           C 84.477 196 80 191.523 80 186 
+           L 80 70 Z" 
+        fill="#FFFFFF" />
+</svg>
